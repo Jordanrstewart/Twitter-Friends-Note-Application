@@ -1,0 +1,2 @@
+# Twitter-Friends-Note-Application
+When learning the MEAN Stack (MongoDB, Express.js, Angular.js, Node.js), our class created a project that would collect the data from the Twitter users that the logged in user followed. When attempting to log in to the website application, it will prompt the user with a Twitter login. After signing in, it will display a graphical user interface that will display the people the user follows. If the user clicks a person they follow, they are allowed to dynamically create notes about the user which are saved through MongoDB.
