@@ -1,0 +1,11 @@
+{
+    "port": 8080,
+    "request_token_url": "https://api.twitter.com/oauth/request_token",
+    "access_token_url": "https://api.twitter.com/oauth/access_token",
+    "authorization_url": "https://api.twitter.com/oauth/authorize",
+    "consumer_key": "VzXrNsxHheGAyb7IO1DopmQIK",
+    "consumer_secret": "akVqCKv0MRHX92xMjTJ91zIcGuiPF2lT1tEKasgiifMuhcqn6M",
+    "oauth_version": "1.0",
+    "oauth_signature": "HMAC-SHA1",
+    "oauth_callback": "https://jordanstunnel.localtunnel.me/request_token"
+}

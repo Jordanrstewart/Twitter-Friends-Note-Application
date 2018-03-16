@@ -1,0 +1,19 @@
+{
+  "name": "twitter-notes",
+  "version": "1.0.0",
+  "description": "An application for leaving notes on Twitter friends and followers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jordan R. Stewart",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.2",
+    "oauth": "^0.9.15"
+  }
+}
