@@ -1,0 +1,52 @@
+<!--
+Exercise 02_05_01
+
+Author: Jordan R. Stewart
+Date: January 23, 2018
+
+Filename: index.ejs
+
+Description: Main front-end markup document
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Friends</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+  <div id="wrapper">
+    <a href="/logout"><button type="button" class="logout">Logout</button></a>
+    <div id="friends-column" class="column">
+      <h1>Your Followers</h1>
+      <ul id="friends">
+        <!--JRS - a foreach that gets values from the friends array and loops it,
+         setting it to line items to sort each follower -->
+        <% friends.forEach(function(friend) { %>
+            <li uid="<%= friend.twitter_id %>" class="friend">
+              <img class="profile-image" src="<%= friend.profile_image_url %>">
+              <p>
+                <span class="name"><%= friend.name %></span>
+                <span class="screen-name"><%= friend.screen_name %></span>
+              </p>
+              <p class="location">
+                <%= friend.location %>
+              </p>
+            </li>
+        <%  }) %>
+      </ul>
+    </div>
+    <div id="notes-column" class="column">
+      <h1>Notes</h1>
+      <ul id="notes">
+
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
